@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Name - Your E-commerce Store</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        .product-name {
+            text-align: center;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .price {
+            text-align: center;
+            color: #E44D26;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your E-commerce Store - Category Name</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Special Offers</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h2>Category Name</h2>
+        <!-- Products Grid -->
+        <div class="product-grid">
+            <!-- Product Item -->
+            <div class="product">
+                <img src="path-to-product1-image.jpg" alt="Product 1">
+                <h3 class="product-name">Product 1 Name</h3>
+                <p class="price">$9.99</p>
+            </div>
+            <!-- More product items here -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Your E-commerce Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
